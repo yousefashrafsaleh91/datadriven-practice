@@ -8,6 +8,7 @@ Scored work from [DataDriven](https://datadriven.io/u/jagged_robin_4876), commit
 
 | Problem | Domain | Difficulty | Solved |
 |---|---|---|---|
+| [The First Encounter](./practice/python/the-first-encounter) | Python | Easy | 2026-10-12 |
 | [Where They Used to Live](./practice/data_modeling/where-they-used-to-live) | Data Modeling | Medium | 2026-10-12 |
 | [Platform Speed](./practice/sql/platform-speed) | SQL | Medium | 2026-10-12 |
 | [Bronze Medal](./practice/sql/bronze-medal) | SQL | Easy | 2026-09-27 |
