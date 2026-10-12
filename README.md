@@ -1,6 +1,6 @@
 # jagged_robin_4876's data engineering practice
 
-Scored work from [DataDriven](https://datadriven.io/u/jagged_robin_4876), committed here as it is scored. Each folder holds the code exactly as submitted and the report it earned.
+Scored work from [DataDriven](https://datadriven.io/u/jagged_robin_4876), committed here as it is scored. Each folder holds the work exactly as submitted and the report it earned.
 
 <!-- datadriven:index:start -->
 
@@ -8,6 +8,7 @@ Scored work from [DataDriven](https://datadriven.io/u/jagged_robin_4876), commit
 
 | Problem | Domain | Difficulty | Solved |
 |---|---|---|---|
+| [Platform Speed](./practice/sql/platform-speed) | SQL | Medium | 2026-10-12 |
 | [Bronze Medal](./practice/sql/bronze-medal) | SQL | Easy | 2026-09-27 |
 | [Buried Digits](./practice/sql/buried-digits) | SQL | Medium | 2026-09-27 |
 
