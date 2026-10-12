@@ -1,0 +1,83 @@
+{
+  "tables": [
+    {
+      "name": "Customer_Address",
+      "columns": [
+        {
+          "name": "cus_id",
+          "type": "INT",
+          "key": "fk"
+        },
+        {
+          "name": "Add_id",
+          "type": "INT",
+          "key": "fk"
+        },
+        {
+          "name": "moved_on",
+          "type": "DATE"
+        },
+        {
+          "name": "moved_out",
+          "type": "DATE"
+        }
+      ]
+    },
+    {
+      "name": "Address",
+      "columns": [
+        {
+          "name": "id",
+          "type": "INT",
+          "key": "pk"
+        },
+        {
+          "name": "zipcode",
+          "type": "INT"
+        },
+        {
+          "name": "street",
+          "type": "VARCHAR"
+        }
+      ]
+    },
+    {
+      "name": "Customer",
+      "columns": [
+        {
+          "name": "id",
+          "type": "INT",
+          "key": "pk"
+        },
+        {
+          "name": "name",
+          "type": "VARCHAR"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "from": {
+        "table": "Customer_Address",
+        "column": "Add_id"
+      },
+      "to": {
+        "table": "Address",
+        "column": "id"
+      },
+      "foreign_key": true
+    },
+    {
+      "from": {
+        "table": "Customer_Address",
+        "column": "cus_id"
+      },
+      "to": {
+        "table": "Customer",
+        "column": "id"
+      },
+      "foreign_key": true
+    }
+  ]
+}
