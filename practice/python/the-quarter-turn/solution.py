@@ -1,7 +1,6 @@
 def rotate_90_clockwise(matrix: list) -> list:
   y=len(matrix)
   res=[]
-  sub=[]
   ind=0
   for x in range(y):
     sub=[]
