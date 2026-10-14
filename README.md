@@ -8,6 +8,7 @@ Scored work from [DataDriven](https://datadriven.io/u/jagged_robin_4876), commit
 
 | Problem | Domain | Difficulty | Solved |
 |---|---|---|---|
+| [The Quiet Middle](./practice/sql/the-quiet-middle) | SQL | Easy | 2026-10-14 |
 | [Build Success vs Failure by Repo](./practice/sql/build-success-vs-failure-by-repo) | SQL | Easy | 2026-10-13 |
 | [Selling Where Nobody Lives](./practice/sql/selling-where-nobody-lives) | SQL | Medium | 2026-10-12 |
 | [Campaign Bookend Engagement](./practice/sql/campaign-bookend-engagement) | SQL | Hard | 2026-10-12 |
