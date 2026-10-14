@@ -8,6 +8,7 @@ Scored work from [DataDriven](https://datadriven.io/u/jagged_robin_4876), commit
 
 | Problem | Domain | Difficulty | Solved |
 |---|---|---|---|
+| [The Hourly Bucket](./practice/python/the-hourly-bucket) | Python | Medium | 2026-10-14 |
 | [The Quarter Turn](./practice/python/the-quarter-turn) | Python | Medium | 2026-10-14 |
 | [The Quiet Middle](./practice/sql/the-quiet-middle) | SQL | Easy | 2026-10-14 |
 | [Build Success vs Failure by Repo](./practice/sql/build-success-vs-failure-by-repo) | SQL | Easy | 2026-10-13 |
