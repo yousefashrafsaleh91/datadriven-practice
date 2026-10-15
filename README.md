@@ -8,6 +8,7 @@ Scored work from [DataDriven](https://datadriven.io/u/yousef_ashraf91), committe
 
 | Problem | Domain | Difficulty | Solved |
 |---|---|---|---|
+| [Search Endpoint Status Distribution](./practice/sql/search-endpoint-status-distribution) | SQL | Easy | 2026-10-15 |
 | [Top Spender](./practice/sql/top-spender) | SQL | Medium | 2026-10-15 |
 | [The Op Dispatcher](./practice/python/the-op-dispatcher) | Python | Easy | 2026-10-15 |
 | [Kings of the Aisle](./practice/sql/kings-of-the-aisle) | SQL | Medium | 2026-10-15 |
