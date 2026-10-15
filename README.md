@@ -11,7 +11,7 @@ Scored work from [DataDriven](https://datadriven.io/u/jagged_robin_4876), commit
 | [The Hourly Bucket](./practice/python/the-hourly-bucket) | Python | Medium | 2026-10-14 |
 | [The Quarter Turn](./practice/python/the-quarter-turn) | Python | Medium | 2026-10-14 |
 | [The Quiet Middle](./practice/sql/the-quiet-middle) | SQL | Easy | 2026-10-14 |
-| [Build Success vs Failure by Repo](./practice/sql/build-success-vs-failure-by-repo) | SQL | Easy | 2026-10-13 |
+| [Build Success vs Failure by Repo](./practice/sql/build-success-vs-failure-by-repo) | SQL | Medium | 2026-10-13 |
 | [Selling Where Nobody Lives](./practice/sql/selling-where-nobody-lives) | SQL | Medium | 2026-10-12 |
 | [Campaign Bookend Engagement](./practice/sql/campaign-bookend-engagement) | SQL | Hard | 2026-10-12 |
 | [The First Encounter](./practice/python/the-first-encounter) | Python | Easy | 2026-10-12 |
