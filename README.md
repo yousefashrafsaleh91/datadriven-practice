@@ -1,6 +1,6 @@
-# jagged_robin_4876's data engineering practice
+# yousef_ashraf91's data engineering practice
 
-Scored work from [DataDriven](https://datadriven.io/u/jagged_robin_4876), committed here as it is scored. Each folder holds the work exactly as submitted and the report it earned.
+Scored work from [DataDriven](https://datadriven.io/u/yousef_ashraf91), committed here as it is scored. Each folder holds the work exactly as submitted and the report it earned.
 
 <!-- datadriven:index:start -->
 
@@ -8,6 +8,7 @@ Scored work from [DataDriven](https://datadriven.io/u/jagged_robin_4876), commit
 
 | Problem | Domain | Difficulty | Solved |
 |---|---|---|---|
+| [Top Spender](./practice/sql/top-spender) | SQL | Medium | 2026-10-15 |
 | [The Op Dispatcher](./practice/python/the-op-dispatcher) | Python | Easy | 2026-10-15 |
 | [Kings of the Aisle](./practice/sql/kings-of-the-aisle) | SQL | Medium | 2026-10-15 |
 | [The Hourly Bucket](./practice/python/the-hourly-bucket) | Python | Medium | 2026-10-14 |
