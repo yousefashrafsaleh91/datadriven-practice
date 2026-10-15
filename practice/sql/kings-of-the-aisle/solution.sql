@@ -1,25 +1,33 @@
-with allsales as (
-select p.category,
-        p.product_name,
-        sum(round(t.total_amount::numeric ,3)) total_revenue
-
-from transactions t
-
-join products p
-on t.product_id = p.product_id
-
-where year(t.transaction_date)=2026
-group by p.product_name,p.category
-
-order by 3 desc 
+WITH TotalSales_2026 AS (
+  --Get the total Sales for each (category,product-for all products in thi Cat-)
+  SELECT
+    p.category,
+    p.product_name,
+    SUM(ROUND(CAST(t.total_amount AS NUMERIC), 3)) AS total_revenue
+  FROM transactions AS t
+  JOIN products AS p
+    ON t.product_id = p.product_id
+  WHERE YEAR(t.transaction_date) = 2026
+  GROUP BY p.product_name, p.category
+  ORDER BY 3 DESC
 ),
-highest as (
-  select category,
-         product_name,
-         total_revenue,
-         row_number() over(partition by category order by total_revenue desc) as rnk
-  from allsales 
+highest AS (
+  -- Get the highest (Category,Product) Total Sales
+  SELECT
+    category,
+    product_name,
+    total_revenue,
+    ROW_NUMBER() OVER (
+      PARTITION BY category
+      ORDER BY total_revenue DESC
+    ) AS rnk
+  FROM TotalSales_2026
 )
- select category,product_name,total_revenue from highest
- where rnk =1
- order by 3 desc
+
+SELECT
+  category,
+  product_name,
+  total_revenue
+FROM highest
+WHERE rnk = 1
+ORDER BY 3 DESC
