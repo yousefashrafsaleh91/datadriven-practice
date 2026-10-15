@@ -8,6 +8,7 @@ Scored work from [DataDriven](https://datadriven.io/u/jagged_robin_4876), commit
 
 | Problem | Domain | Difficulty | Solved |
 |---|---|---|---|
+| [The Op Dispatcher](./practice/python/the-op-dispatcher) | Python | Easy | 2026-10-15 |
 | [Kings of the Aisle](./practice/sql/kings-of-the-aisle) | SQL | Medium | 2026-10-15 |
 | [The Hourly Bucket](./practice/python/the-hourly-bucket) | Python | Medium | 2026-10-14 |
 | [The Quarter Turn](./practice/python/the-quarter-turn) | Python | Medium | 2026-10-14 |
