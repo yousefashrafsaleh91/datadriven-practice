@@ -8,6 +8,7 @@ Scored work from [DataDriven](https://datadriven.io/u/yousef_ashraf91), committe
 
 | Problem | Domain | Difficulty | Solved |
 |---|---|---|---|
+| [The Coin Vault](./practice/python/the-coin-vault) | Python | Medium | 2026-10-16 |
 | [High-Spend 2025 Campaigns](./practice/sql/high-spend-year-1-campaigns) | SQL | Easy | 2026-10-16 |
 | [Search Endpoint Status Distribution](./practice/sql/search-endpoint-status-distribution) | SQL | Easy | 2026-10-15 |
 | [Top Spender](./practice/sql/top-spender) | SQL | Medium | 2026-10-15 |
