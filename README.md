@@ -8,6 +8,7 @@ Scored work from [DataDriven](https://datadriven.io/u/yousef_ashraf91), committe
 
 | Problem | Domain | Difficulty | Solved |
 |---|---|---|---|
+| [The Missing Number](./practice/python/the-missing-number) | Python | Easy | 2026-10-16 |
 | [The Long Watch](./practice/sql/the-long-watch) | SQL | Medium | 2026-10-16 |
 | [The Coin Vault](./practice/python/the-coin-vault) | Python | Medium | 2026-10-16 |
 | [High-Spend 2025 Campaigns](./practice/sql/high-spend-year-1-campaigns) | SQL | Easy | 2026-10-16 |
