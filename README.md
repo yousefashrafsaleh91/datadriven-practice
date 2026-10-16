@@ -8,6 +8,7 @@ Scored work from [DataDriven](https://datadriven.io/u/yousef_ashraf91), committe
 
 | Problem | Domain | Difficulty | Solved |
 |---|---|---|---|
+| [Two Names on the Ledger](./practice/sql/two-names-on-the-ledger) | SQL | Easy | 2026-10-16 |
 | [The Date Sorter](./practice/python/the-date-sorter) | Python | Medium | 2026-10-16 |
 | [Top of the Line](./practice/sql/top-of-the-line) | SQL | Easy | 2026-10-16 |
 | [The Missing Number](./practice/python/the-missing-number) | Python | Easy | 2026-10-16 |
