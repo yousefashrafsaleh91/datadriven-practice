@@ -4,6 +4,6 @@ def flatten_the_nest(items: list):
     if type(x) !=list:
       flattened.append(x)
     else:
-      flattened.extend(x)
+      flattened.extend(flatten_the_nest(x))
         
   return flattened
