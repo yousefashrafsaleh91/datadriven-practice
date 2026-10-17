@@ -8,6 +8,7 @@ Scored work from [DataDriven](https://datadriven.io/u/yousef_ashraf91), committe
 
 | Problem | Domain | Difficulty | Solved |
 |---|---|---|---|
+| [The Address Surgeon](./practice/python/the-address-surgeon) | Python | Easy | 2026-10-17 |
 | [Into One Stream](./practice/python/into-one-stream) | Python | Easy | 2026-10-17 |
 | [Back Again](./practice/sql/back-again) | SQL | Medium | 2026-10-17 |
 | [Who Came First](./practice/python/who-came-first) | Python | Easy | 2026-10-17 |
