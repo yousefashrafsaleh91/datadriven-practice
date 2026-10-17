@@ -1,6 +1,7 @@
 SELECT
-  lower(framework) framework,
-  round(AVG(accuracy),2) avg_accuracy
+  LOWER(framework) AS framework,
+  ROUND(AVG(accuracy), 2) AS avg_accuracy
 FROM ml_models
-WHERE  framework in ('PyTorch','TensorFlow','XGBoost','tensorflow')
-group by lower(framework)
+WHERE CAST(REPLACE(version, 'v', '') AS REAL) BETWEEN 1.0
+AND 2.0
+GROUP BY LOWER(framework)
