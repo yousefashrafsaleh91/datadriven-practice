@@ -1,8 +1,9 @@
 def flatten_the_nest(items: list):
-  result=[]
-  for item in items:
-    if isinstance(item, list):
-        result.extend(flatten_the_nest(item))
+  flattened=[]
+  for x in items:
+    if type(x) !=list:
+      flattened.append(x)
     else:
-        result.append(item)   
-  return result
+      flattened.extend(x)
+        
+  return flattened
