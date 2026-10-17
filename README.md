@@ -8,6 +8,7 @@ Scored work from [DataDriven](https://datadriven.io/u/yousef_ashraf91), committe
 
 | Problem | Domain | Difficulty | Solved |
 |---|---|---|---|
+| [Who Came First](./practice/python/who-came-first) | Python | Easy | 2026-10-17 |
 | [Top Metric Values](./practice/sql/top-metric-values) | SQL | Easy | 2026-10-17 |
 | [Two Names on the Ledger](./practice/sql/two-names-on-the-ledger) | SQL | Easy | 2026-10-16 |
 | [The Date Sorter](./practice/python/the-date-sorter) | Python | Medium | 2026-10-16 |
