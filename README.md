@@ -8,6 +8,7 @@ Scored work from [DataDriven](https://datadriven.io/u/yousef_ashraf91), committe
 
 | Problem | Domain | Difficulty | Solved |
 |---|---|---|---|
+| [The Tail Trimmer](./practice/python/the-tail-trimmer) | Python | Easy | 2026-10-17 |
 | [The Warm Edges](./practice/sql/the-warm-edges) | SQL | Medium | 2026-10-17 |
 | [Average Accuracy by Framework](./practice/sql/average-accuracy-by-framework) | SQL | Medium | 2026-10-17 |
 | [Point of Entry](./practice/sql/point-of-entry) | SQL | Hard | 2026-10-17 |
