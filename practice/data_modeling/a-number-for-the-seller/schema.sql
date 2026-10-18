@@ -1,40 +1,48 @@
-CREATE TABLE Sellers (
+CREATE TABLE fact_sales (
+    order_id INT,
+    product_id INT,
     seller_id INT,
-    first_name VARCHAR,
-    last_name VARCHAR,
-    age INT,
-    location VARCHAR,
-    seller_revenue DECIMAL,
-    total_products_sold INT,
-    PRIMARY KEY (seller_id)
+    date_key INT,
+    price DECIMAL,
+    quantity INT,
+    gross_revenue DECIMAL,
+    PRIMARY KEY (order_id)
 );
 
-CREATE TABLE Products (
+CREATE TABLE dim_date (
+    date_key INT,
+    month INT,
+    day INT,
+    year INT,
+    PRIMARY KEY (date_key)
+);
+
+CREATE TABLE dim_products (
     product_id INT,
-    user_id TEXT,
-    status VARCHAR,
-    publish_date TIMESTAMP,
+    seller_id INT,
+    product_name VARCHAR,
+    listied_at TIMESTAMP,
+    is_active BOOLEAN,
     PRIMARY KEY (product_id)
 );
 
-CREATE TABLE Sales (
-    sale_id INT,
-    product_id INT,
+CREATE TABLE dim_sellers (
     seller_id INT,
-    price DECIMAL,
-    quantity INT,
-    total_price DECIMAL,
-    discount DECIMAL,
-    sale_revenue DECIMAL,
-    occur_at TIMESTAMP,
-    PRIMARY KEY (sale_id, product_id)
+    first_name VARCHAR,
+    last_name VARCHAR,
+    Country VARCHAR,
+    joined_at TEXT,  /* no type on the canvas */
+    PRIMARY KEY (seller_id)
 );
 
-ALTER TABLE Sellers
-    ADD FOREIGN KEY (seller_id) REFERENCES Products (user_id);
+ALTER TABLE fact_sales
+    ADD FOREIGN KEY (date_key) REFERENCES dim_date (date_key);
 
-ALTER TABLE Sales
-    ADD FOREIGN KEY (product_id) REFERENCES Products (product_id);
+ALTER TABLE dim_sellers
+    ADD FOREIGN KEY (seller_id) REFERENCES fact_sales (seller_id);
 
-ALTER TABLE Sales
-    ADD FOREIGN KEY (seller_id) REFERENCES Sellers (seller_id);
+ALTER TABLE dim_sellers
+    ADD FOREIGN KEY (seller_id) REFERENCES dim_products (seller_id);
+
+ALTER TABLE fact_sales
+    ADD FOREIGN KEY (product_id) REFERENCES dim_products (product_id);

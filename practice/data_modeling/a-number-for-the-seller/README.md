@@ -17,35 +17,39 @@
 
 ```mermaid
 erDiagram
-    Sellers {
+    fact_sales {
+        INT order_id PK
+        INT product_id FK
+        INT seller_id FK
+        INT date_key FK
+        DECIMAL price
+        INT quantity
+        DECIMAL gross_revenue
+    }
+    dim_date {
+        INT date_key PK
+        INT month
+        INT day
+        INT year
+    }
+    dim_products {
+        INT product_id PK
+        INT seller_id FK
+        VARCHAR product_name
+        TIMESTAMP listied_at
+        BOOLEAN is_active
+    }
+    dim_sellers {
         INT seller_id PK
         VARCHAR first_name
         VARCHAR last_name
-        INT age
-        VARCHAR location
-        DECIMAL seller_revenue
-        INT total_products_sold
+        VARCHAR Country
+        unspecified joined_at
     }
-    Products {
-        INT product_id PK
-        TEXT user_id FK
-        VARCHAR status
-        TIMESTAMP publish_date
-    }
-    Sales {
-        INT sale_id PK
-        INT product_id PK
-        INT seller_id FK
-        DECIMAL price
-        INT quantity
-        DECIMAL total_price
-        DECIMAL discount
-        DECIMAL sale_revenue
-        TIMESTAMP occur_at
-    }
-    Products only one to zero or more Sellers : "seller_id = user_id"
-    Products only one to only one Sales : "product_id"
-    Sellers only one optionally to only one Sales : "seller_id"
+    dim_date only one optionally to zero or more fact_sales : "date_key"
+    fact_sales only one to zero or more dim_sellers : "seller_id"
+    dim_products only one to zero or more dim_sellers : "seller_id"
+    dim_products only one optionally to zero or more fact_sales : "product_id"
 ```
 
 The accepted design is in [`schema.sql`](./schema.sql) as DDL and in [`schema.json`](./schema.json) as JSON.
