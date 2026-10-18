@@ -32,7 +32,7 @@ erDiagram
     }
     Sales {
         INT sale_id PK
-        INT product_id FK
+        INT product_id PK
         INT seller_id FK
         DECIMAL price
         INT quantity
@@ -42,7 +42,7 @@ erDiagram
         TIMESTAMP occur_at
     }
     Products only one to zero or more Sellers : "seller_id = user_id"
-    Products only one optionally to only one Sales : "product_id"
+    Products only one to only one Sales : "product_id"
     Sellers only one optionally to only one Sales : "seller_id"
 ```
 

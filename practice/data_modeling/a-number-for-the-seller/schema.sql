@@ -25,7 +25,7 @@ CREATE TABLE Sales (
     discount DECIMAL,
     revenue DECIMAL,
     occur_at TIMESTAMP,
-    PRIMARY KEY (sale_id)
+    PRIMARY KEY (sale_id, product_id)
 );
 
 ALTER TABLE Sellers

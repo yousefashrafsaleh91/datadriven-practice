@@ -60,7 +60,7 @@
         {
           "name": "product_id",
           "type": "INT",
-          "key": "fk"
+          "key": "pk"
         },
         {
           "name": "seller_id",
