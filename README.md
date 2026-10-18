@@ -8,6 +8,7 @@ Scored work from [DataDriven](https://datadriven.io/u/yousef_ashraf91), committe
 
 | Problem | Domain | Difficulty | Solved |
 |---|---|---|---|
+| [A Number for the Seller](./practice/data_modeling/a-number-for-the-seller) | Data Modeling | Easy | 2026-10-18 |
 | [The Tail Trimmer](./practice/python/the-tail-trimmer) | Python | Easy | 2026-10-17 |
 | [The Warm Edges](./practice/sql/the-warm-edges) | SQL | Medium | 2026-10-17 |
 | [Average Accuracy by Framework](./practice/sql/average-accuracy-by-framework) | SQL | Medium | 2026-10-17 |

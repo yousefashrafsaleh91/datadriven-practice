@@ -1,0 +1,138 @@
+{
+  "tables": [
+    {
+      "name": "Sellers",
+      "columns": [
+        {
+          "name": "seller_id",
+          "type": "INT",
+          "key": "pk"
+        },
+        {
+          "name": "first_name",
+          "type": "VARCHAR"
+        },
+        {
+          "name": "last_name",
+          "type": "VARCHAR"
+        },
+        {
+          "name": "age",
+          "type": "INT"
+        },
+        {
+          "name": "location",
+          "type": "VARCHAR"
+        }
+      ]
+    },
+    {
+      "name": "Products",
+      "columns": [
+        {
+          "name": "product_id",
+          "type": "INT",
+          "key": "pk"
+        },
+        {
+          "name": "user_id",
+          "type": "TEXT",
+          "key": "fk"
+        },
+        {
+          "name": "status",
+          "type": "VARCHAR"
+        },
+        {
+          "name": "publish_date",
+          "type": "TIMESTAMP"
+        }
+      ]
+    },
+    {
+      "name": "Sales",
+      "columns": [
+        {
+          "name": "sale_id",
+          "type": "INT",
+          "key": "pk"
+        },
+        {
+          "name": "product_id",
+          "type": "INT",
+          "key": "fk"
+        },
+        {
+          "name": "seller_id",
+          "type": "INT",
+          "key": "fk"
+        },
+        {
+          "name": "price",
+          "type": "DECIMAL"
+        },
+        {
+          "name": "quantity",
+          "type": "INT"
+        },
+        {
+          "name": "total_price",
+          "type": "DECIMAL"
+        },
+        {
+          "name": "discount",
+          "type": "DECIMAL"
+        },
+        {
+          "name": "revenue",
+          "type": "DECIMAL"
+        },
+        {
+          "name": "occur_at",
+          "type": "TIMESTAMP"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "from": {
+        "table": "Sellers",
+        "column": "seller_id",
+        "cardinality": "many"
+      },
+      "to": {
+        "table": "Products",
+        "column": "user_id",
+        "cardinality": "one"
+      },
+      "foreign_key": true
+    },
+    {
+      "from": {
+        "table": "Sales",
+        "column": "product_id",
+        "cardinality": "exactlyOne"
+      },
+      "to": {
+        "table": "Products",
+        "column": "product_id",
+        "cardinality": "exactlyOne"
+      },
+      "foreign_key": true
+    },
+    {
+      "from": {
+        "table": "Sales",
+        "column": "seller_id",
+        "cardinality": "exactlyOne"
+      },
+      "to": {
+        "table": "Sellers",
+        "column": "seller_id",
+        "cardinality": "exactlyOne"
+      },
+      "foreign_key": true
+    }
+  ]
+}
