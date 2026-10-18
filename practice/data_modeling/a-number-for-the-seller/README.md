@@ -23,6 +23,8 @@ erDiagram
         VARCHAR last_name
         INT age
         VARCHAR location
+        DECIMAL seller_revenue
+        INT total_products_sold
     }
     Products {
         INT product_id PK
@@ -38,7 +40,7 @@ erDiagram
         INT quantity
         DECIMAL total_price
         DECIMAL discount
-        DECIMAL revenue
+        DECIMAL sale_revenue
         TIMESTAMP occur_at
     }
     Products only one to zero or more Sellers : "seller_id = user_id"

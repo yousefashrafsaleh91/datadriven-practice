@@ -23,6 +23,14 @@
         {
           "name": "location",
           "type": "VARCHAR"
+        },
+        {
+          "name": "seller_revenue",
+          "type": "DECIMAL"
+        },
+        {
+          "name": "total_products_sold",
+          "type": "INT"
         }
       ]
     },
@@ -84,7 +92,7 @@
           "type": "DECIMAL"
         },
         {
-          "name": "revenue",
+          "name": "sale_revenue",
           "type": "DECIMAL"
         },
         {

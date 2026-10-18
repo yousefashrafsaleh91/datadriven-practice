@@ -4,6 +4,8 @@ CREATE TABLE Sellers (
     last_name VARCHAR,
     age INT,
     location VARCHAR,
+    seller_revenue DECIMAL,
+    total_products_sold INT,
     PRIMARY KEY (seller_id)
 );
 
@@ -23,7 +25,7 @@ CREATE TABLE Sales (
     quantity INT,
     total_price DECIMAL,
     discount DECIMAL,
-    revenue DECIMAL,
+    sale_revenue DECIMAL,
     occur_at TIMESTAMP,
     PRIMARY KEY (sale_id, product_id)
 );
