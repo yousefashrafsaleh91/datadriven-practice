@@ -19,9 +19,9 @@
 erDiagram
     fact_sales {
         INT order_id PK
-        INT product_id FK
         INT seller_id FK
         INT date_key FK
+        INT product_id
         DECIMAL price
         INT quantity
         DECIMAL gross_revenue
@@ -49,7 +49,6 @@ erDiagram
     dim_date only one optionally to zero or more fact_sales : "date_key"
     fact_sales only one to zero or more dim_sellers : "seller_id"
     dim_products only one to zero or more dim_sellers : "seller_id"
-    dim_products only one optionally to zero or more fact_sales : "product_id"
 ```
 
 The accepted design is in [`schema.sql`](./schema.sql) as DDL and in [`schema.json`](./schema.json) as JSON.

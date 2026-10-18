@@ -1,8 +1,8 @@
 CREATE TABLE fact_sales (
     order_id INT,
-    product_id INT,
     seller_id INT,
     date_key INT,
+    product_id INT,
     price DECIMAL,
     quantity INT,
     gross_revenue DECIMAL,
@@ -43,6 +43,3 @@ ALTER TABLE dim_sellers
 
 ALTER TABLE dim_sellers
     ADD FOREIGN KEY (seller_id) REFERENCES dim_products (seller_id);
-
-ALTER TABLE fact_sales
-    ADD FOREIGN KEY (product_id) REFERENCES dim_products (product_id);

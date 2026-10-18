@@ -9,11 +9,6 @@
           "key": "pk"
         },
         {
-          "name": "product_id",
-          "type": "INT",
-          "key": "fk"
-        },
-        {
           "name": "seller_id",
           "type": "INT",
           "key": "fk"
@@ -22,6 +17,10 @@
           "name": "date_key",
           "type": "INT",
           "key": "fk"
+        },
+        {
+          "name": "product_id",
+          "type": "INT"
         },
         {
           "name": "price",
@@ -148,19 +147,6 @@
       "to": {
         "table": "dim_products",
         "column": "seller_id",
-        "cardinality": "one"
-      },
-      "foreign_key": true
-    },
-    {
-      "from": {
-        "table": "fact_sales",
-        "column": "product_id",
-        "cardinality": "many"
-      },
-      "to": {
-        "table": "dim_products",
-        "column": "product_id",
         "cardinality": "one"
       },
       "foreign_key": true
