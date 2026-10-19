@@ -3,9 +3,8 @@ def count_key_occurrences(records, key):
     for dic in records:
       if key not in dic:
          continue
-      else:
-          try:
-            result[dic[key]]+=1
-          except KeyError:
-            result[dic[key]]=1
+      try:
+        result[dic[key]]+=1
+      except KeyError:
+        result[dic[key]]=1
     return result
