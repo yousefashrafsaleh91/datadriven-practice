@@ -1,7 +1,7 @@
 def count_key_occurrences(records, key):
     result=dict()
     for dic in records:
-      if key not in dic.keys():
+      if key not in dic:
          continue
       else:
           try:
