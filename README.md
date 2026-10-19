@@ -8,6 +8,7 @@ Scored work from [DataDriven](https://datadriven.io/u/yousef_ashraf91), committe
 
 | Problem | Domain | Difficulty | Solved |
 |---|---|---|---|
+| [The Field Counter](./practice/python/the-field-counter) | Python | Easy | 2026-10-19 |
 | [Top Percentile API Tokens](./practice/sql/top-percentile-api-tokens) | SQL | Hard | 2026-10-19 |
 | [The Last Mile](./practice/data_modeling/the-last-mile) | Data Modeling | Medium | 2026-10-19 |
 | [The Chain Transform](./practice/python/the-chain-transform) | Python | Medium | 2026-10-19 |
