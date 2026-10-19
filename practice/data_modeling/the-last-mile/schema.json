@@ -1,0 +1,202 @@
+{
+  "tables": [
+    {
+      "name": "dim_products",
+      "columns": [
+        {
+          "name": "product_id",
+          "type": "INT",
+          "key": "pk"
+        },
+        {
+          "name": "name",
+          "type": "VARCHAR"
+        },
+        {
+          "name": "category",
+          "type": "VARCHAR"
+        }
+      ]
+    },
+    {
+      "name": "dim_packages",
+      "columns": [
+        {
+          "name": "package_id",
+          "type": "INT",
+          "key": "pk"
+        },
+        {
+          "name": "time",
+          "type": "TIMESTAMP",
+          "key": "pk"
+        },
+        {
+          "name": "order_id",
+          "type": "INT",
+          "key": "fk"
+        },
+        {
+          "name": "location"
+        },
+        {
+          "name": "status"
+        }
+      ]
+    },
+    {
+      "name": "dim_customers",
+      "columns": [
+        {
+          "name": "customer_id",
+          "type": "INT",
+          "key": "pk"
+        },
+        {
+          "name": "Fname",
+          "type": "VARCHAR"
+        },
+        {
+          "name": "Lname",
+          "type": "VARCHAR"
+        },
+        {
+          "name": "age",
+          "type": "INT"
+        }
+      ]
+    },
+    {
+      "name": "dim_date",
+      "columns": [
+        {
+          "name": "datekey",
+          "type": "INT",
+          "key": "pk"
+        },
+        {
+          "name": "year",
+          "type": "INT"
+        },
+        {
+          "name": "month",
+          "type": "INT"
+        },
+        {
+          "name": "day",
+          "type": "INT"
+        }
+      ]
+    },
+    {
+      "name": "fact_orders",
+      "columns": [
+        {
+          "name": "order_id",
+          "type": "INT",
+          "key": "pk"
+        },
+        {
+          "name": "package_id",
+          "type": "INT",
+          "key": "pk"
+        },
+        {
+          "name": "customer_id",
+          "key": "fk"
+        },
+        {
+          "name": "product_id",
+          "type": "INT",
+          "key": "fk"
+        },
+        {
+          "name": "datekey",
+          "type": "INT",
+          "key": "fk"
+        },
+        {
+          "name": "price",
+          "type": "DECIMAL"
+        },
+        {
+          "name": "quantitiy",
+          "type": "INT"
+        },
+        {
+          "name": "total_sale",
+          "type": "DECIMAL"
+        },
+        {
+          "name": "status",
+          "type": "VARCHAR"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "from": {
+        "table": "fact_orders",
+        "column": "package_id",
+        "cardinality": "many"
+      },
+      "to": {
+        "table": "dim_packages",
+        "column": "package_id",
+        "cardinality": "one"
+      },
+      "foreign_key": true
+    },
+    {
+      "from": {
+        "table": "dim_packages",
+        "column": "order_id",
+        "cardinality": "exactlyOne"
+      },
+      "to": {
+        "table": "fact_orders",
+        "column": "order_id",
+        "cardinality": "exactlyOne"
+      },
+      "foreign_key": true
+    },
+    {
+      "from": {
+        "table": "dim_customers",
+        "column": "customer_id",
+        "cardinality": "many"
+      },
+      "to": {
+        "table": "fact_orders",
+        "column": "customer_id",
+        "cardinality": "one"
+      },
+      "foreign_key": true
+    },
+    {
+      "from": {
+        "table": "dim_products",
+        "column": "product_id",
+        "cardinality": "many"
+      },
+      "to": {
+        "table": "fact_orders",
+        "column": "product_id",
+        "cardinality": "one"
+      },
+      "foreign_key": true
+    },
+    {
+      "from": {
+        "table": "fact_orders",
+        "column": "datekey"
+      },
+      "to": {
+        "table": "dim_date",
+        "column": "datekey"
+      },
+      "foreign_key": true
+    }
+  ]
+}
