@@ -99,7 +99,7 @@
         {
           "name": "package_id",
           "type": "INT",
-          "key": "pk"
+          "key": "fk"
         },
         {
           "name": "customer_id",

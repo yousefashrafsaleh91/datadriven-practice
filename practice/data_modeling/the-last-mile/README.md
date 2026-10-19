@@ -43,7 +43,7 @@ erDiagram
     }
     fact_orders {
         INT order_id PK
-        INT package_id PK
+        INT package_id FK
         unspecified customer_id FK
         INT product_id FK
         INT datekey FK
@@ -52,7 +52,7 @@ erDiagram
         DECIMAL total_sale
         VARCHAR status
     }
-    dim_packages only one to zero or more fact_orders : "package_id"
+    dim_packages only one optionally to zero or more fact_orders : "package_id"
     fact_orders only one optionally to only one dim_packages : "order_id"
     fact_orders only one to zero or more dim_customers : "customer_id"
     fact_orders only one to zero or more dim_products : "product_id"

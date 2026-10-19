@@ -40,7 +40,7 @@ CREATE TABLE fact_orders (
     quantitiy INT,
     total_sale DECIMAL,
     status VARCHAR,
-    PRIMARY KEY (order_id, package_id)
+    PRIMARY KEY (order_id)
 );
 
 ALTER TABLE fact_orders
