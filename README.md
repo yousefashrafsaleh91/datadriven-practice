@@ -17,7 +17,7 @@ Scored work from [DataDriven](https://datadriven.io/u/yousef_ashraf91), committe
 | [Top Percentile API Tokens](./practice/sql/top-percentile-api-tokens) | SQL | Hard | 2026-10-19 |
 | [The Last Mile](./practice/data_modeling/the-last-mile) | Data Modeling | Medium | 2026-10-19 |
 | [The Chain Transform](./practice/python/the-chain-transform) | Python | Medium | 2026-10-19 |
-| [Where You Stand](./practice/sql/where-you-stand) | SQL | Easy | 2026-10-19 |
+| [Where You Stand](./practice/sql/where-you-stand) | SQL | Medium | 2026-10-19 |
 | [A Number for the Seller](./practice/data_modeling/a-number-for-the-seller) | Data Modeling | Easy | 2026-10-18 |
 | [The Tail Trimmer](./practice/python/the-tail-trimmer) | Python | Easy | 2026-10-17 |
 | [The Warm Edges](./practice/sql/the-warm-edges) | SQL | Medium | 2026-10-17 |
