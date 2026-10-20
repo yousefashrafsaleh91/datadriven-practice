@@ -8,6 +8,7 @@ Scored work from [DataDriven](https://datadriven.io/u/yousef_ashraf91), committe
 
 | Problem | Domain | Difficulty | Solved |
 |---|---|---|---|
+| [First Time Learners Per Day](./practice/sql/first-time-learners-per-day) | SQL | Medium | 2026-10-20 |
 | [Verify Commit ID Uniqueness](./practice/sql/verify-commit-id-uniqueness) | SQL | Easy | 2026-10-20 |
 | [The Lazy Stream](./practice/python/the-lazy-stream) | Python | Hard | 2026-10-19 |
 | [The Field Counter](./practice/python/the-field-counter) | Python | Easy | 2026-10-19 |
