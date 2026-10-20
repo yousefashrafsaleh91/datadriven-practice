@@ -8,6 +8,7 @@ Scored work from [DataDriven](https://datadriven.io/u/yousef_ashraf91), committe
 
 | Problem | Domain | Difficulty | Solved |
 |---|---|---|---|
+| [Longest Running Pipeline](./practice/sql/longest-running-pipeline) | SQL | Medium | 2026-10-20 |
 | [Service Budget per Head](./practice/sql/service-budget-per-head) | SQL | Medium | 2026-10-20 |
 | [The Long Tail](./practice/sql/the-long-tail) | SQL | Medium | 2026-10-20 |
 | [First Time Learners Per Day](./practice/sql/first-time-learners-per-day) | SQL | Medium | 2026-10-20 |
