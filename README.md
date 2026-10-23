@@ -8,6 +8,7 @@ Scored work from [DataDriven](https://datadriven.io/u/yousef_ashraf91), committe
 
 | Problem | Domain | Difficulty | Solved |
 |---|---|---|---|
+| [Deployment Duration by Status](./practice/sql/deployment-duration-by-status) | SQL | Easy | 2026-10-23 |
 | [30-Day Page View Counts](./practice/sql/30-day-page-view-counts) | SQL | Easy | 2026-10-23 |
 | [The Long Run](./practice/python/the-long-run) | Python | Easy | 2026-10-22 |
 | [Minimum Parallel Workers](./practice/sql/minimum-parallel-workers) | SQL | Hard | 2026-10-22 |
