@@ -8,6 +8,7 @@ Scored work from [DataDriven](https://datadriven.io/u/yousef_ashraf91), committe
 
 | Problem | Domain | Difficulty | Solved |
 |---|---|---|---|
+| [Broken Promises Between Tables](./practice/sql/broken-promises-between-tables) | SQL | Medium | 2026-10-25 |
 | [Top Repos by Successful Builds](./practice/sql/top-repos-by-successful-builds) | SQL | Medium | 2026-10-25 |
 | [Above Average Product Prices](./practice/sql/above-average-product-prices) | SQL | Medium | 2026-10-25 |
 | [Views by Content Type](./practice/sql/views-by-content-type) | SQL | Medium | 2026-10-24 |
