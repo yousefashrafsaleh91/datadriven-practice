@@ -4,7 +4,8 @@ SELECT
 FROM users AS x
 JOIN users AS y
   ON y.account_status = x.account_status
-    AND y.user_id < x.user_id
+where
+    y.user_id < x.user_id
     AND YEAR(y.signup_date) <> YEAR(x.signup_date)
     AND y.age_bucket <> x.age_bucket
 ORDER BY y.user_id
