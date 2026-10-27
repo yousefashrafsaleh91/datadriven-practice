@@ -7,4 +7,4 @@ FROM cloud_costs
 WHERE year(bill_date) = 2026 AND month(bill_date) = 5
 GROUP BY svc_name
 )
-SELECT * FROM tiers where tier=1
+SELECT svc_name,total_spend FROM tiers where tier=1
