@@ -8,6 +8,7 @@ Scored work from [DataDriven](https://datadriven.io/u/yousef_ashraf91), committe
 
 | Problem | Domain | Difficulty | Solved |
 |---|---|---|---|
+| [Mentorship User Pairs](./practice/sql/mentorship-user-pairs) | SQL | Medium | 2026-10-27 |
 | [Bottom 2% Services by Spend](./practice/sql/bottom-2-services-by-spend) | SQL | Hard | 2026-10-27 |
 | [The Crown Jewels](./practice/sql/the-crown-jewels) | SQL | Easy | 2026-10-27 |
 | [7-Day Token Retention](./practice/sql/7-day-token-retention) | SQL | Medium | 2026-10-27 |
