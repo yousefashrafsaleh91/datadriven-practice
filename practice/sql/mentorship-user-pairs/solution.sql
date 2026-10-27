@@ -1,11 +1,9 @@
 SELECT
-  y.user_id user_id_1,
-  x.user_id user_id_2
-FROM users AS x
-JOIN users AS y
-  ON y.account_status = x.account_status
-where
-    y.user_id < x.user_id
-    AND YEAR(y.signup_date) <> YEAR(x.signup_date)
-    AND y.age_bucket <> x.age_bucket
-ORDER BY y.user_id
+  u1.user_id AS user_id_1,
+  u2.user_id AS user_id_2
+FROM users AS u1
+JOIN users AS u2
+  ON u1.user_id < u2.user_id
+WHERE u1.age_bucket <> u2.age_bucket
+  AND u1.account_status = u2.account_status
+  AND STRFTIME('%Y', u1.signup_date) <> STRFTIME('%Y', u2.signup_date)
