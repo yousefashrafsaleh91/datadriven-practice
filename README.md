@@ -8,6 +8,7 @@ Scored work from [DataDriven](https://datadriven.io/u/yousef_ashraf91), committe
 
 | Problem | Domain | Difficulty | Solved |
 |---|---|---|---|
+| [Left On](./practice/sql/left-on) | SQL | Medium | 2026-10-29 |
 | [Mentorship User Pairs](./practice/sql/mentorship-user-pairs) | SQL | Medium | 2026-10-27 |
 | [Bottom 2% Services by Spend](./practice/sql/bottom-2-services-by-spend) | SQL | Hard | 2026-10-27 |
 | [The Crown Jewels](./practice/sql/the-crown-jewels) | SQL | Easy | 2026-10-27 |
