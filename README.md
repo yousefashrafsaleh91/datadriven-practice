@@ -8,6 +8,7 @@ Scored work from [DataDriven](https://datadriven.io/u/yousef_ashraf91), committe
 
 | Problem | Domain | Difficulty | Solved |
 |---|---|---|---|
+| [Busy Authors](./practice/sql/busy-authors) | SQL | Medium | 2026-10-30 |
 | [Above Average Interactions](./practice/sql/above-average-interactions) | SQL | Easy | 2026-10-30 |
 | [The Blast Radius](./practice/sql/the-blast-radius) | SQL | Medium | 2026-10-29 |
 | [Left On](./practice/sql/left-on) | SQL | Medium | 2026-10-29 |
