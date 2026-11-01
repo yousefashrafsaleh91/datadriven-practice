@@ -68,7 +68,7 @@ Scored work from [DataDriven](https://datadriven.io/u/yousef_ashraf91), committe
 | [The Quarter Turn](./practice/python/the-quarter-turn) | Python | Medium | 2026-10-14 |
 | [The Quiet Middle](./practice/sql/the-quiet-middle) | SQL | Easy | 2026-10-14 |
 | [Build Success vs Failure by Repo](./practice/sql/build-success-vs-failure-by-repo) | SQL | Medium | 2026-10-13 |
-| [Selling Where Nobody Lives](./practice/sql/selling-where-nobody-lives) | SQL | Medium | 2026-10-12 |
+| [Selling Where Nobody Lives](./practice/sql/selling-where-nobody-lives) | SQL | Easy | 2026-10-12 |
 | [Campaign Bookend Engagement](./practice/sql/campaign-bookend-engagement) | SQL | Hard | 2026-10-12 |
 | [The First Encounter](./practice/python/the-first-encounter) | Python | Easy | 2026-10-12 |
 | [Where They Used to Live](./practice/data_modeling/where-they-used-to-live) | Data Modeling | Medium | 2026-10-12 |
