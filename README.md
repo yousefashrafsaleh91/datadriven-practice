@@ -4,6 +4,14 @@ Scored work from [DataDriven](https://datadriven.io/u/yousef_ashraf91), committe
 
 <!-- datadriven:index:start -->
 
+## The Weekly
+
+1 data engineering challenge a week on hidden production data, graded blind at the freeze.
+
+| Week | Score | Rank | |
+|---|---:|---|---|
+| [Week 7: The Timetable](./weekly/week-07-the-timetable) | 0.0000 | #8 of 9 | [brief](https://datadriven.io/community/week-7) |
+
 ## Practice
 
 | Problem | Domain | Difficulty | Solved |
