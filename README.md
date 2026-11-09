@@ -75,7 +75,7 @@ Scored work from [DataDriven](https://datadriven.io/u/yousef_ashraf91), committe
 | [Top Spender](./practice/sql/top-spender) | SQL | Medium | 2026-10-15 |
 | [The Op Dispatcher](./practice/python/the-op-dispatcher) | Python | Easy | 2026-10-15 |
 | [Kings of the Aisle](./practice/sql/kings-of-the-aisle) | SQL | Medium | 2026-10-15 |
-| [The Hourly Bucket](./practice/python/the-hourly-bucket) | Python | Medium | 2026-10-14 |
+| [The Hourly Bucket](./practice/python/the-hourly-bucket) | Python | Easy | 2026-10-14 |
 | [The Quarter Turn](./practice/python/the-quarter-turn) | Python | Medium | 2026-10-14 |
 | [The Quiet Middle](./practice/sql/the-quiet-middle) | SQL | Easy | 2026-10-14 |
 | [Build Success vs Failure by Repo](./practice/sql/build-success-vs-failure-by-repo) | SQL | Medium | 2026-10-13 |
