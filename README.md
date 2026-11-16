@@ -20,7 +20,7 @@ Scored work from [DataDriven](https://datadriven.io/u/yousef_ashraf91), committe
 | [Above the Curve](./practice/sql/above-the-curve) | SQL | Medium | 2026-11-01 |
 | [Beyond the Signup](./practice/sql/beyond-the-signup) | SQL | Medium | 2026-11-01 |
 | [Busy Authors](./practice/sql/busy-authors) | SQL | Medium | 2026-10-30 |
-| [Above Average Interactions](./practice/sql/above-average-interactions) | SQL | Medium | 2026-10-30 |
+| [Above Average Interactions](./practice/sql/above-average-interactions) | SQL | Easy | 2026-10-30 |
 | [The Blast Radius](./practice/sql/the-blast-radius) | SQL | Medium | 2026-10-29 |
 | [Left On](./practice/sql/left-on) | SQL | Medium | 2026-10-29 |
 | [Mentorship User Pairs](./practice/sql/mentorship-user-pairs) | SQL | Medium | 2026-10-27 |
